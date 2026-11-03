@@ -1,0 +1,131 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Nature Gallery</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f0f5f0;
+            color: #333;
+        }
+
+        header {
+            background-color: #245c45;
+            color: white;
+            text-align: center;
+            padding: 30px;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 25px;
+        }
+
+        h2 {
+            color: #245c45;
+        }
+
+        ul {
+            line-height: 2;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+        }
+
+        .gallery img {
+            width: 30%;
+            min-width: 220px;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+
+        a {
+            color: #245c45;
+        }
+
+        footer {
+            background-color: #245c45;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Beautiful Nature Gallery</h1>
+        <p>Discover the beauty of our planet</p>
+    </header>
+
+    <main>
+        <section>
+            <h2>Welcome to Nature</h2>
+            <p>
+                Nature is beautiful and full of amazing places.
+                Explore mountains, forests, oceans, and wildlife
+                through this photo gallery.
+            </p>
+        </section>
+
+        <section>
+            <h2>Three Wonders of Nature</h2>
+
+            <ul>
+                <li>Mountains – Beautiful and peaceful landscapes.</li>
+                <li>Forests – Home to many plants and animals.</li>
+                <li>Oceans – Amazing underwater ecosystems.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Photo Gallery</h2>
+
+            <div class="gallery">
+                <img
+                    src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=600"
+                    alt="Beautiful mountain landscape">
+
+                <img
+                    src="https://images.unsplash.com/photo-1448375240586-882707db888b?w=600"
+                    alt="Green forest">
+
+                <img
+                    src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=600"
+                    alt="Beautiful ocean waves">
+            </div>
+        </section>
+
+        <section>
+            <h2>Learn More</h2>
+            <p>
+                Visit
+                <a href="https://www.worldwildlife.org/"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    World Wildlife Fund
+                </a>
+                to learn more about protecting nature and wildlife.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Created for my HTML5 course | 2026</p>
+    </footer>
+
+</body>
+</html>
